@@ -1,10 +1,11 @@
 import React from "react";
+import styled from 'styled-components';
 
 function Hello() {
-    return <>
-    <h1>
-        Hello World!
-    </h1>
-    </>
+    const StyledButton = styled.button`
+        color:red;
+        background-color:gray;
+    `;
+    return <StyledButton> Hello Button </StyledButton>
 }
 export default Hello;
